@@ -962,6 +962,12 @@ ifndef LOCAL_PRIVILEGED_MODULE
   endif
 endif
 
+# Disable ART Runtime Debuging
+ART_BUILD_TARGET_NDEBUG := false
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := false
+ART_BUILD_HOST_DEBUG := false
+
 ###########################################################
 ## NOTICE files
 ###########################################################
